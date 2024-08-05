@@ -1,0 +1,54 @@
+:root{
+    --bg-primary: #1E1E2D;
+    --bg-secondary: #232533;
+
+
+}
+body{
+    background-color: var(--bg-secondary);
+}
+
+.container{
+    background-color:var(--bg-primary);
+    height: 95vh;
+    width: 95vw;
+
+}
+.container button{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+color: gold;
+font-size: 3rem;
+background-color: var(--bg-primary);
+border: 2px solid white;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1 img{
+    height: 80px;
+    width: 80px;
+}
+span{
+    color: rgb(216, 185, 11);
+    font-size: 4rem;
+    font-style: normal;
+}
+.container .pressed{
+    
+height: 200px;
+width: 200px;
+border-radius: 50%;
+color: gold;
+font-size: 3rem;
+background-color: orange;
+border: 2px solid white;
+
+}
